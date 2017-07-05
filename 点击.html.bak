@@ -9,18 +9,30 @@
   <title>Document</title>
  </head>
  <body>
-  
-<button onclick="func()">按钮1
-</button>
-
+   
+<button>按钮1</button>
+<button>按钮2</button>
+<button>按钮3</button>
+<button>按钮4</button>
+<button>按钮5</button>
+<button>按钮6</button>
 <script>
 
  function func()
  {
- alert("点击");
+ alert("童飞是猪");
 }
-</script>
+var btns = document.getElementsByTagName("button");
 
+
+btns[0].onclick = func;
+btns[1].onclick = func;
+btns[2].onclick = func;
+btns[3].onclick = func;
+btns[4].onclick = func;
+btns[5].onclick = func;
+
+</script>
 
 
  </body>
