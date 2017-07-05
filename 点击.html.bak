@@ -18,9 +18,9 @@
 <button>按钮6</button>
 <script>
 
- function func()
+ function func(e)
  {
- alert("童飞是猪");
+ alert(e.target.innerHTML);
 }
 var btns = document.getElementsByTagName("button");
 
